@@ -1,0 +1,43 @@
+
+table {
+    border: 1px solid blue;
+    width: 260px;
+}
+td {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding: 2px;
+
+}
+input{
+    outline: none;
+    border: none;
+    margin: 10px 5px;
+    text-align: right;
+    width: 100%;
+    background:none;
+}
+button{
+    flex-basis: 23%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    cursor:pointer;
+    font-size: 18px;
+ 
+}
+button:hover{
+    background: aqua;
+}
+button.equals{
+    flex-basis: 49%;
+}
+
+.total td input{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
